@@ -1,0 +1,15 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'Urbanist Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Urbanist Regular'), url('../font/Urbanist[wght].woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Urbanist Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Urbanist Italic'), url('../font/Urbanist-Italic[wght].woff') format('woff');
+}

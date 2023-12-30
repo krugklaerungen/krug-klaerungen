@@ -1,0 +1,54 @@
+/* Custom Styles */
+
+@import url(colors.css);
+@import url(fonts.css);
+
+:root{
+    --main-background: white;
+    --accent-background: var(--bright-sky);
+    --main-gradient: var(--waves-light), var(--waves-medium), var(--waves-dark);
+    --accent-gradient: var(--sand-bright-orange), var(--sand-burnt-earth), var(--sand-red-brown), var(--sand-dark-brown);
+}
+
+body {
+    font-family: "Urbanist Regular", sans-serif;
+    background: var(--main-background);
+
+    .thumbnail {
+        max-width: 400px;
+        max-height: 250px;
+        padding: 50px;
+        color: var(--accent-background);
+    }
+
+    .gradient-main{
+        background-image: linear-gradient(to right, var(--main-gradient));
+    }
+
+    .gradient-accent{
+        background-image: linear-gradient(to right, var(--accent-gradient));
+    }
+
+    .bg-pink-50 {
+        background-color: var(--accent-background);
+    }
+
+    /* logo size */
+    .h-8{
+        height: 6rem;
+    }
+
+    .mobile-menu{
+        background: var(--main-background);
+        font-size: 1.5rem;
+    }
+
+    :is(footer) {
+        background-color: var(--accent-background);
+    }
+}
+
+
+
+
+
