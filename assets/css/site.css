@@ -29,6 +29,14 @@ body {
         background-image: linear-gradient(to right, var(--accent-gradient));
     }
 
+    .accent-background{
+        background-color: var(--accent-background);
+    }
+
+    .main-background {
+        background-color: var(--main-background);
+    }
+
     .bg-pink-50 {
         background-color: var(--accent-background);
     }
@@ -45,6 +53,10 @@ body {
 
     :is(footer) {
         background-color: var(--accent-background);
+    }
+
+    .prose ul > li::before {
+        background-color: black;
     }
 }
 

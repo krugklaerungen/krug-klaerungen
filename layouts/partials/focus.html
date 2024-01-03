@@ -1,0 +1,8 @@
+<section class="{{ .Params.focus_color }} dark:bg-gray-900">
+  <div class="container max-w-screen-lg mx-auto px-6 py-12 items-center">
+    <div class="prose lg:prose-lg mx-auto my-8 dark:prose-dark px-4">
+      <h1 class="text-6xl text-center font-bold mb-4">{{ .Params.Title | safeHTML}}</h1>
+      <div>{{ .Params.focus | safeHTML}}</div>
+    </div>
+  </div>
+</section>

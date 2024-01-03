@@ -1,0 +1,14 @@
+{{ define "main" }}
+{{ if .Params.image }}
+<div class="relative max-w-2xl mx-auto px-4">
+    <img src="{{ .Params.image | absURL }}" class="rounded-lg shadow-sm w-full object-contain" />
+</div>
+{{ end }}
+
+{{- partial "focus.html" . -}}
+
+<article class="prose lg:prose-lg mx-auto my-8 dark:prose-dark px-4">
+    {{ .Content | safeHTML }}
+</article>
+
+{{ end }}
