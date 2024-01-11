@@ -50,10 +50,6 @@ body {
         font-size: 1.5rem;
     }
 
-    :is(footer) {
-        background-color: var(--accent-background);
-    }
-
     .prose ul > li::before {
         background-color: black;
     }
