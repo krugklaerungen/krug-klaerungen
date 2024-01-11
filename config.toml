@@ -1,4 +1,4 @@
-baseURL = 'https://krug-klaerungen.de/'
+baseURL = 'https://musical-capybara-c41cf1.netlify.app/'
 languageCode = 'de-de'
 title = 'Krug Klärungen'
 theme = 'blist'
