@@ -1,18 +1,10 @@
 :root{
     --oracle-blue: #405556;
     --cloudless-sky: #A2DDDC;
-    --heather-gray: #999594;
+    --heather-gray: #d2d4dc;
     --grenadine-pink: #D77071;
-    --pink-frolic: #FEC3C5;
+    --pink-frolic: #fed5d6;
+    --brighter-sky: #c3fefc;
 
-    --yellow-clouds: #fdf7c2;
-    --bright-sky: #84dfd3;
-    --waves-light: #3eadbe;
-    --waves-medium: #01758c;
-    --waves-dark: #05555f;
-    --sand-bright-orange: #eeab81;
-    --sand-burnt-earth: #9d3c11;
-    --sand-red-brown: #541404;
-    --sand-dark-brown: #2e1707;
-
+    --grey-gradient: #d2d4dc, #bdbec6, #a8a9b0, #93949a, #7e7f8;
 }

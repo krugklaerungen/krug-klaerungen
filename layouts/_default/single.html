@@ -1,7 +1,11 @@
 {{ define "main" }}
 {{ if .Params.image }}
-<div class="relative max-w-2xl mx-auto px-4">
-    <img src="{{ .Params.image | absURL }}" class="rounded-lg shadow-sm w-full object-contain" />
+<div class="container mx-auto px-1 py-2 max-w-screen-xl grid md:grid-cols-3 gap-1 lg:gap-1 items-center">
+    <div></div>
+    <div>
+        <img src="{{ .Params.image | absURL }}" class="rounded-lg shadow-sm object-contain" />
+    </div>
+    <div></div>
 </div>
 {{ end }}
 

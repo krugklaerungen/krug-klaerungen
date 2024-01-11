@@ -4,10 +4,10 @@
 @import url(fonts.css);
 
 :root{
-    --main-background: white;
-    --accent-background: var(--bright-sky);
-    --main-gradient: var(--waves-light), var(--waves-medium), var(--waves-dark);
-    --accent-gradient: var(--sand-bright-orange), var(--sand-burnt-earth), var(--sand-red-brown), var(--sand-dark-brown);
+    --main-background: var(--pink-frolic);
+    --accent-background: var(--brighter-sky);
+    --main-gradient: var(--grey-gradient);
+    --accent-gradient: var(--grey-gradient);
 }
 
 body {
@@ -18,15 +18,14 @@ body {
         max-width: 400px;
         max-height: 250px;
         padding: 50px;
-        color: var(--accent-background);
     }
 
     .gradient-main{
-        background-image: linear-gradient(to right, var(--main-gradient));
+        background-image: linear-gradient(to right, #d2d4dc, #bdbec6, #a8a9b0, #93949a);
     }
 
     .gradient-accent{
-        background-image: linear-gradient(to right, var(--accent-gradient));
+        background-image: linear-gradient(to right, #d2d4dc, #bdbec6, #a8a9b0, #93949a);
     }
 
     .accent-background{
