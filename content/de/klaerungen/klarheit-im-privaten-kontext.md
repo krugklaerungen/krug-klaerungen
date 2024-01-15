@@ -4,14 +4,10 @@ url: /klarheit-im-privaten-kontext
 weight: 2
 thumbnail: "image/iStock-182771396.jpeg"
 tags: ["Klarheit", "privater Kontext"]
-gradient: "main"
 focus_title: "für Paare, Familien, Freunde"
-focus: "
-<li>Wieder in Kontakt miteinander kommen</li>
-<li>Verständnis für einander verbessern</li>
-<li>Basis für gemeinsame Lösungen schaffen</li>"
-image: "image/labyrinth.PNG"
-focus_color: "accent-background"
+focus: ["Wieder in Kontakt miteinander kommen", "Verständnis für einander verbessern", "Basis für gemeinsame Lösungen schaffen"]
+show_thumbnail: true
+
 ---
 # Wobei kann ich unterstützen?
 

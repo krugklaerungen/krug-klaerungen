@@ -1,13 +1,24 @@
-<section class="{{ .Params.focus_color }} dark:bg-gray-900">
-    <div class="container max-w-screen-lg mx-auto px-6 py-12 items-center">
-        <div class="prose lg:prose-lg mx-auto my-8 dark:prose-dark px-4">
-            <h1 class="text-6xl text-center font-bold mb-4">{{ .Params.Title | safeHTML}}</h1>
-            <div>
-                <h3>{{ .Params.focus_title | safeHTML}}</h3>
-                <ul class="list-image-[url({{ .Params.focus_li | absURL }})]">
-                    {{ .Params.focus | safeHTML}}
-                </ul>
-            </div>
+<section class="{{ .Site.Params.ascentColor | default " bg-pink-50" }} dark:bg-gray-900">
+    <div class="pt-10">
+        <h1 class="text-6xl text-center font-bold mb-4">{{ .Params.Title | safeHTML }}</h1>
+    </div>
+    <div class="container max-w-screen-lg mx-auto px-6 py-12 grid md:grid-cols-2 gap-4 lg:gap-16 items-center">
+        <div>
+            <h3 class="text-2xl pb-4">{{ .Params.focus_title | safeHTML}}</h3>
+            {{ range .Params.focus }}
+                <p class="font-light text-xl">
+                    <svg class="inline" width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 3L14.0357 8.16153C14.2236 8.63799 14.3175 8.87622 14.4614 9.0771C14.5889 9.25516 14.7448 9.41106 14.9229 9.53859C15.1238 9.68245 15.362 9.77641 15.8385 9.96432L21 12L15.8385 14.0357C15.362 14.2236 15.1238 14.3175 14.9229 14.4614C14.7448 14.5889 14.5889 14.7448 14.4614 14.9229C14.3175 15.1238 14.2236 15.362 14.0357 15.8385L12 21L9.96432 15.8385C9.77641 15.362 9.68245 15.1238 9.53859 14.9229C9.41106 14.7448 9.25516 14.5889 9.0771 14.4614C8.87622 14.3175 8.63799 14.2236 8.16153 14.0357L3 12L8.16153 9.96432C8.63799 9.77641 8.87622 9.68245 9.0771 9.53859C9.25516 9.41106 9.41106 9.25516 9.53859 9.0771C9.68245 8.87622 9.77641 8.63799 9.96432 8.16153L12 3Z"
+                              stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    {{ . | safeHTML}}
+                </p>
+            {{ end }}
+        </div>
+        <div>
+            {{ if .Params.show_thumbnail }}
+                <img src="{{ .Params.thumbnail | absURL }}" class="rounded-lg shadow-sm object-contain"/>
+            {{ end }}
         </div>
     </div>
 </section>

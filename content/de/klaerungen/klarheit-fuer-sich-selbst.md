@@ -4,17 +4,10 @@ url: /klarheit-fuer-sich-selbst
 weight: 1
 thumbnail: "image/ashley-batz-betmVWGYcLY-unsplash.jpeg"
 tags: ["klarheit"]
-gradient: "main"
 focus_title: ""
-focus: "
-<li>Wieder handlungsfähig werden</li>
-<li>Überforderung souverän überwinden</li>
-<li>Entscheidungen selbstbewusst treffen</li>
-<li>Innere Kraft wiederfinden</li>
-<li>Agieren statt reagieren</li>
-"
+focus: ["Wieder handlungsfähig werden", "Überforderung souverän überwinden", "Entscheidungen selbstbewusst treffen", "Innere Kraft wiederfinden", "Agieren statt reagieren"]
 image: "/image/diego-ph-fIq0tET6llw-unsplash.jpg"
-focus_color: "accent-background"
+show_thumbnail: true
 ---
 
 # Wobei kann ich unterstützen?

@@ -4,16 +4,9 @@ url: /klarheit-im-beruflichen-kontext
 weight: 3
 thumbnail: "image/susan-q-yin-Ctaj_HCqW84-unsplash.jpeg"
 tags: ["Klarheit", "beruflicher kontext"]
-gradient: "main"
 focus_title: ""
-focus: "
-<li>Kommunikation verbessern</li>
-<li>Zusammenarbeit erleichtern</li>
-<li>Arbeitsprozesse fördern</li>
-<li>angenehmes Betriebsklima schaffen</li>
-"
-image: ""
-focus_color: "accent-background"
+focus: ["Kommunikation verbessern","Zusammenarbeit erleichtern", "Arbeitsprozesse fördern", "angenehmes Betriebsklima schaffen"]
+show_thumbnail: true
 ---
 # Wobei kann ich unterstützen?
 - Störung des Arbeitsprozesses durch schlechte Kommunikation

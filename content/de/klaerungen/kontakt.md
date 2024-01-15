@@ -4,8 +4,7 @@ url: "/anfahrt-kontakt-honorar"
 weight: 4
 thumbnail: "image/gunnar-ridderstrom-O8rqXUOH6Oc-unsplash.jpeg"
 tags: ["Kontakt", "Anfahrt", "Honorar"]
-gradient: "accent"
-focus_color: "accent-background"
+show_thumbnail: true
 ---
 
 ## Honorar für Privatpersonen
