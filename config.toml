@@ -28,6 +28,11 @@ name = "Kontakt"
 url = "/anfahrt-kontakt-honorar"
 weight = 3
 
+[[languages.de.menu.main]]
+name = "F.A.Q"
+url = "/fragen-und-antworten"
+weight = 4
+
 
 [params]
 # Enable the darkmode toggle in header
