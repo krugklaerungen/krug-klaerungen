@@ -1,16 +1,16 @@
 <footer class="{{ .Site.Params.ascentColor | default " bg-pink-50" }} dark:bg-gray-900">
     <div class="container flex justify-between md:justify-between gap-4 flex-wrap p-6 mx-auto relative ">
-    <span class="text-sm font-light">
+    <span class="text-lg font-light">
         {{ if (isset .Site.Params "copyright") }}
             {{ .Site.Params.copyright | safeHTML }}
         {{ else }}
             {{ dateFormat "2006" now }} © {{ .Site.Title }}
         {{ end }}
     </span>
-        <span class="text-sm font-light">
+        <span class="text-lg font-light">
         <a href="/impressum">Impressum</a>
     </span>
-        <span class="text-sm font-light">
+        <span class="text-lg font-light">
         <a href="/datenschutz">Datenschutz</a>
     </span>
         <span onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="p-1 cursor-pointer">

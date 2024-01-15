@@ -10,8 +10,8 @@ DefaultContentLanguageInSubdir = true
 contentDir = "content/de" # Deutsch
 weight = 1
 languageName = "Deutsch"
-introPhoto = "image/labyrinth.PNG"
-logo = "image/logo.png"
+introPhoto = "image/logo-krug-klaerungen.png"
+logo = "image/logo-krug-klaerungen-header.jpg"
 
 [[languages.de.menu.main]]
 name = "Klärungen"
@@ -63,10 +63,6 @@ ascentColor = ""
 # Can be used at site level or page level
 hideMeta = true
 
-# To hide "Other languages" option if the post is available in multiple languages
-# Can be used at site level or page level
-hideOtherLanguages = true
-
 # Add support for Table of contents
 # Can be added to a page level also in markdown frontmatter
 toc = false
@@ -76,46 +72,7 @@ toc = false
 # This setting can also be in page's markdown file
 hidePageThumbnail = false
 
-# Comments system
-[params.comments]
-# Supports disqus, giscus and utterances
-# Check hugo docs for setting up disqus
-system = "giscus"
 
-# Options for giscus, exclude hyphens
-repo = ""
-repoid = ""
-category = ""
-categoryid = ""
-mapping = ""
-strict = ""
-reactionsenabled = ""
-emitmetadata = ""
-inputposition = ""
-theme = ""
-
-# Options for utterances, exclude hyphens
-# repo = ""
-# issueterm = ""
-# theme = ""
-
-[params.homepage.social]
-# Global params common for both languages
-title = "Follow me"
-description = "I work on everything coding and tweet developer memes"
-
-
-[[params.homepage.social.icons]]
-website = "linkedin"
-url = "https://linkedin.com/in/"
-[[params.homepage.social.icons]]
-website = "xing"
-url = "https://www.xing.com/profile/"
-
-
-#[[menu.main]]
-#name = "About"
-#url = "/about"
 
 [build]
 writeStats = true

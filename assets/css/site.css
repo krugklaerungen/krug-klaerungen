@@ -12,6 +12,11 @@ body {
     font-family: "Urbanist Regular", sans-serif;
     background: var(--main-background);
 
+    .blog-card img{
+        max-width: 450px;
+        height: 300px;
+    }
+
     .thumbnail {
         max-width: 400px;
         max-height: 250px;
@@ -24,6 +29,11 @@ body {
 
     .prose ul > li::before {
         background-color: black;
+    }
+
+    /* logo size */
+    .h-8{
+        height: 6rem;
     }
 }
 
