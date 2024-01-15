@@ -4,10 +4,8 @@
 @import url(fonts.css);
 
 :root{
-    --main-background: var(--pink-frolic);
-    --accent-background: var(--brighter-sky);
-    --main-gradient: var(--grey-gradient);
-    --accent-gradient: var(--grey-gradient);
+    --main-background: white;
+    --accent-background: #F1DEE6;
 }
 
 body {
@@ -20,33 +18,7 @@ body {
         padding: 50px;
     }
 
-    .gradient-main{
-        background-image: linear-gradient(to right, #d2d4dc, #bdbec6, #a8a9b0, #93949a);
-    }
-
-    .gradient-accent{
-        background-image: linear-gradient(to right, #d2d4dc, #bdbec6, #a8a9b0, #93949a);
-    }
-
-    .accent-background{
-        background-color: var(--accent-background);
-    }
-
-    .main-background {
-        background-color: var(--main-background);
-    }
-
-    .bg-pink-50 {
-        background-color: var(--accent-background);
-    }
-
-    /* logo size */
-    .h-8{
-        height: 6rem;
-    }
-
     .mobile-menu{
-        background: var(--main-background);
         font-size: 1.5rem;
     }
 

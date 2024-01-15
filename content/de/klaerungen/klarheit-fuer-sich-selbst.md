@@ -2,7 +2,7 @@
 title: "Klarheit für sich selbst"
 url: /klarheit-fuer-sich-selbst
 weight: 1
-description: ""
+thumbnail: "image/ashley-batz-betmVWGYcLY-unsplash.jpeg"
 tags: ["klarheit"]
 gradient: "main"
 focus_title: ""

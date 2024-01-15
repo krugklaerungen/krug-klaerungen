@@ -3,6 +3,7 @@ title: "Über mich"
 url: "/ueber-mich"
 weight: 4
 description: ""
+thumbnail: "image/2023_01_TanjaKrug24.jpg"
 tags: ["über mich"]
 gradient: "accent"
 focus_title: "Qualifikation"

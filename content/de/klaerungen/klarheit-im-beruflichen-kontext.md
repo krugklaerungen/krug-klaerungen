@@ -2,7 +2,7 @@
 title: "Klarheit im beruflichen Kontext"
 url: /klarheit-im-beruflichen-kontext
 weight: 3
-description: ""
+thumbnail: "image/susan-q-yin-Ctaj_HCqW84-unsplash.jpeg"
 tags: ["Klarheit", "beruflicher kontext"]
 gradient: "main"
 focus_title: ""

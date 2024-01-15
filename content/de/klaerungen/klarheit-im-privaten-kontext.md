@@ -2,7 +2,7 @@
 title: "Klarheit im privaten Kontext"
 url: /klarheit-im-privaten-kontext
 weight: 2
-description: ""
+thumbnail: "image/iStock-182771396.jpeg"
 tags: ["Klarheit", "privater Kontext"]
 gradient: "main"
 focus_title: "für Paare, Familien, Freunde"

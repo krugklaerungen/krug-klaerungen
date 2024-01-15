@@ -2,7 +2,7 @@
 title: "Kontakt, Anfahrt, Honorar"
 url: "/anfahrt-kontakt-honorar"
 weight: 6
-description: ""
+thumbnail: "image/gunnar-ridderstrom-O8rqXUOH6Oc-unsplash.jpeg"
 tags: ["Kontakt", "Anfahrt", "Honorar"]
 gradient: "accent"
 focus_color: "accent-background"
