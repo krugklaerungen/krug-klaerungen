@@ -4,11 +4,9 @@ url: "/ueber-mich"
 weight: 6
 thumbnail: "image/2023_01_TanjaKrug26.jpg"
 tags: ["über mich"]
-gradient: "accent"
 focus_title: "Qualifikation"
 focus: ["Heilpraktikerin für Psychotherapie", "Multimodale Kurzzeit-Psychotherapie</br><em>am Institut für Kommunikation und Gesundheit Ffm</em>",
 "Zertifizierte Klärungshelferin</br><em>nach Christoph Thomann</em>", "Begleiterin in Lebenskrisen mit Hilfe der lösungsorientierten Kurzzeittherapie</br><em>nach De Shazer</em>"]
-image: "image/2023_01_TanjaKrug26.jpg"
 show_thumbnail: true
 ---
 
