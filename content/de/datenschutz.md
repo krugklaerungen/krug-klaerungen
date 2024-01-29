@@ -88,11 +88,12 @@ Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zug
 möglich.  
 #### Hinweis zur verantwortlichen Stelle
 
-Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
+Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:  
 Tanja Krug  
 Am Kümmerling 37A  
 55294 Bodenheim  
-Telefon: 0179 5909304  
+
+Telefon: 0151 24193156  
 E-Mail: tkrug.klaerungen@icloud.com  
 Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über
 die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.)
@@ -106,6 +107,7 @@ berechtigtes Löschersuchen geltend machen oder eine Einwilligung zur Datenverar
 werden Ihre Daten gelöscht, sofern wir keine anderen rechtlich zulässigen Gründe für die Speicherung Ihrer
 personenbezogenen Daten haben (z. B. steuer- oder handelsrechtliche Aufbewahrungsfristen); im
 letztgenannten Fall erfolgt die Löschung nach Fortfall dieser Gründe.  
+
 ### Allgemeine Hinweise zu den Rechtsgrundlagen der Datenverarbeitung auf dieser Website
 Sofern Sie in die Datenverarbeitung eingewilligt haben, verarbeiten wir Ihre personenbezogenen Daten auf
 Grundlage von Art. 6 Abs. 1 lit. a DSGVO bzw. Art. 9 Abs. 2 lit. a DSGVO, sofern besondere Datenkategorien

@@ -12,7 +12,7 @@ Am Kümmerling 37A
 55294 Bodenheim  
 
 #### Kontakt
-Telefon: 0179 5909304  
+Telefon: 0151 24193156  
 E-Mail: krug.klaerungen@icloud.com  
 
 ### EU-Streitschlichtung
@@ -39,6 +39,7 @@ von <a href="https://blist.vercel.app/de" target="_blank"> Katheryn Fox </a>.
 * Foto von <a href="https://unsplash.com/de/@syinq?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Susan Q Yin</a> auf <a href="https://unsplash.com/de/fotos/menschen-die-auf-weissen-betontreppen-sitzen-Ctaj_HCqW84?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 * Foto von <a href="https://unsplash.com/de/@lamunix?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Ana Municio</a> auf <a href="https://unsplash.com/de/fotos/graue-und-braune-steine-auf-grauem-grund-PbzntH58GLQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 * Foto von <a href="https://unsplash.com/de/@gunnarridder?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" >Gunnar Ridderström</a> auf <a href="https://unsplash.com/de/fotos/ein-strassenschild-auf-dem-wege-stehen-O8rqXUOH6Oc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+* Foto von <a href="https://unsplash.com/fr/@thematthoward?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Matt Howard</a> auf <a href="https://unsplash.com/fr/photos/col-de-montagne-au-lever-du-soleil-A4iL43vunlY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 
 ### Hinweise auf Rechtsverstöße:

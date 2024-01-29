@@ -17,7 +17,7 @@ Auseinandersetzungen erschweren eine Aussprache
 - wieder aufeinander zugehen
 - gut auseinander gehen
 - sich mit schwierigen Tatsachen und Gefühlen befassen
-- schweren Störungen vorbeugen soll
+- schweren Störungen vorbeugen
 
 Konflikte kennen wir alle, sie gehören zum Leben dazu. 
 Ursache ist zumeist eine gestörte Kommunikation, die von kleinen Missverständnissen bis hin zu ernsten Konflikten reichen kann, die dann so festgefahren sind, dass eine Aussprache nicht mehr möglich scheint.  

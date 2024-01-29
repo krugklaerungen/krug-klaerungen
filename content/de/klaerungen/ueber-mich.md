@@ -19,4 +19,4 @@ Glücklich verheiratet in zweiter Ehe habe ich Erfahrung damit, dass es in Bezie
 Als Brustkrebs-Genesende weiß ich um die Ressourcen, die in uns stecken.
 In meiner Arbeit setze ich den Schwerpunkt auf Ihre inneren Stärken und Ressourcen und vertraue darauf, dass die Lösung bereits in Ihnen steckt. 
 
-![Tanja Krug](/image/2023_01_TanjaKrug_3.jpg)
+![Tanja Krug](/image/2023_01_TanjaKrug30.jpeg)

@@ -2,7 +2,7 @@
 title: "Kontakt, Anfahrt, Honorar"
 url: "/anfahrt-kontakt-honorar"
 weight: 4
-thumbnail: "image/gunnar-ridderstrom-O8rqXUOH6Oc-unsplash.jpeg"
+thumbnail: "image/matt-howard-A4iL43vunlY-unsplash.jpg"
 tags: ["Kontakt", "Anfahrt", "Honorar"]
 show_thumbnail: false
 ---
@@ -28,7 +28,7 @@ Bevor wir miteinander arbeiten, mache ich mit Ihnen eine ausführliche Auftragsk
 Termine nach Vereinbarung
 auch am Wochenende möglich
 
-Sie erreichen mich unter: <a href="tel:+491795909304">0179 5909304</a>  
+Sie erreichen mich unter: <a href="tel:+4915124193156">0151 24193156</a>  
 Sollten Sie mich nicht persönlich erreichen, bin ich in einem Gespräch. Bitte hinterlassen Sie mir eine Nachricht und ich rufe Sie schnellstmöglich zurück.  
 
 Oder Sie schicken mir eine Email: <a href="mailto:tkrug.klaerungen@icloud.com">tkrug.klaerungen@icloud.com</a>
@@ -49,5 +49,5 @@ Zertifizierte Klärungshelferin
 55294 Bodenheim  </a>
 
 Email: <a href="mailto:tkrug.klaerungen@icloud.com">tkrug.klaerungen@icloud.com</a>  
-Telefon: <a href="tel:+491795909304">0179 5909304</a>  
+Telefon: <a href="tel:+4915124193156">0151 24193156</a>  
 

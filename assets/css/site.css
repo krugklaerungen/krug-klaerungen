@@ -1,11 +1,9 @@
 /* Custom Styles */
-
-@import url(colors.css);
 @import url(fonts.css);
 
 :root{
     --main-background: white;
-    --accent-background: #F1DEE6;
+    --accent-background: #ABC5A3;
 }
 
 body {
@@ -34,6 +32,11 @@ body {
     /* logo size */
     .h-8{
         height: 6rem;
+    }
+
+    .accent {
+        background: var(--accent-background);
+        color: white;
     }
 }
 
