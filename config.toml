@@ -4,36 +4,30 @@ title = 'Krug Klärungen'
 theme = 'blist'
 accentColor = '#f6ad55'
 
+# Remove multilanguage specific configurations
+contentDir = "content"
 DefaultContentLanguage = "de"
-DefaultContentLanguageInSubdir = true
-[languages]
-[languages.de]
-contentDir = "content/de" # Deutsch
-weight = 1
-languageName = "Deutsch"
-introPhoto = "image/logo-krug-klaerungen.png"
-logo = "image/logo-krug-klaerungen-header.jpg"
 
-[[languages.de.menu.main]]
+# Main Menu
+[[menu.main]]
 name = "Klärungen"
 url = "/"
 weight = 1
 
-[[languages.de.menu.main]]
+[[menu.main]]
 name = "Über mich"
 url = "/ueber-mich"
 weight = 2
 
-[[languages.de.menu.main]]
+[[menu.main]]
 name = "Kontakt"
 url = "/anfahrt-kontakt-honorar"
 weight = 3
 
-[[languages.de.menu.main]]
+[[menu.main]]
 name = "F.A.Q"
 url = "/fragen-und-antworten"
 weight = 4
-
 
 [params]
 # Enable the darkmode toggle in header
@@ -43,9 +37,6 @@ darkModeToggle = false
 enableSearch = false
 
 # Option to customize the search parameters of a page
-# Below are the supported options; Note that including entire content
-# may slowdown the loading of search results
-# Title of page is included by default
 searchKeys = [
     "tags",
     "date",
@@ -60,25 +51,21 @@ searchKeys = [
 copyright = "Copyright © 2024 - Tanja Krug · All rights reserved"
 favicon = ""
 
-# Color for the intro details and social links block, not applicable for dark mode
-# Supported values: Any color from TailwindCSS default colors
-# Reference: https://tailwindcss.com/docs/customizing-colors
+# Color for the intro details and social links block
 ascentColor = ""
 
+# Logo and intro photo
+introPhoto = "image/logo-krug-klaerungen.png"
+logo = "image/logo-krug-klaerungen-header.jpg"
+
 # Used to hide the post metadata such as posted date, reading time and word count
-# Can be used at site level or page level
 hideMeta = true
 
 # Add support for Table of contents
-# Can be added to a page level also in markdown frontmatter
 toc = false
 
 # Hides the thumbnail in post view
-# Thumbnails in home and blog pages will still be shown
-# This setting can also be in page's markdown file
 hidePageThumbnail = false
-
-
 
 [build]
 writeStats = true
