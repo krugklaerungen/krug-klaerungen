@@ -47,6 +47,8 @@ searchKeys = [
     "author"
 ]
 
+
+
 # Custom copyright - optional
 copyright = "Copyright © 2024 - Tanja Krug · All rights reserved"
 favicon = ""
@@ -66,6 +68,14 @@ toc = false
 
 # Hides the thumbnail in post view
 hidePageThumbnail = false
+
+# Add to your existing config.toml
+[contentTypes]
+[contentTypes.reviews]
+singularName = "review"
+pluralName = "reviews"
+description = "Client Reviews"
+
 
 [build]
 writeStats = true

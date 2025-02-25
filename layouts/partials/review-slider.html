@@ -1,0 +1,127 @@
+{{ $reviews := where (where .Site.Pages "Type" "reviews") "Content" "ne" "" }}
+
+<section id="review-slider" class="bg-gray-50 py-16">
+    <div class="container mx-auto max-w-4xl px-4">
+        <h2 class="text-3xl font-bold text-center mb-4 text-gray-800">
+            Rezensionen
+        </h2>
+
+        <div class="relative w-full overflow-hidden">
+            <!-- Left Navigation Arrow -->
+            <button id="prev-review" class="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 w-10 h-10 flex items-center justify-center bg-white rounded-full shadow-md hover:bg-gray-100 focus:outline-none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#778F00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+            </button>
+
+            <!-- Review Container -->
+            <div class="mx-16"> <!-- Add margin to make space for arrows -->
+                <div id="review-container" class="relative transition-transform duration-500 ease-in-out">
+                    {{ range $index, $review := $reviews }}
+                    <div class="review w-full {{ if ne $index 0 }}hidden{{ end }}" data-index="{{ $index }}">
+                        <div class="flex flex-col items-center text-center px-8 py-10">
+                            <!-- Top Quotation Mark - Centered -->
+                            <div class="w-full flex justify-center mb-6">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#778F00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path>
+                                    <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path>
+                                </svg>
+                            </div>
+
+                            <!-- Review Text with Fixed Height -->
+                            <div class="min-h-[150px] flex items-center justify-center">
+                                <p class="text-2xl italic text-gray-700">
+                                    {{ .Content | safeHTML }}
+                                </p>
+                            </div>
+
+                            <!-- Bottom Row with Author Only -->
+                            <div class="w-full flex justify-center items-center mt-6">
+                                <p class="font-semibold text-gray-900">{{ .Params.author }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+
+            <!-- Right Navigation Arrow -->
+            <button id="next-review" class="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 w-10 h-10 flex items-center justify-center bg-white rounded-full shadow-md hover:bg-gray-100 focus:outline-none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#778F00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+            </button>
+
+            <!-- Dots navigation (optional - keep if you still want dot indicators) -->
+            <div id="review-dots" class="absolute bottom-0 left-1/2 transform -translate-x-1/2 flex space-x-2 py-4">
+                {{ range $index, $review := $reviews }}
+                <button
+                        class="review-dot w-3 h-3 rounded-full {{ if eq $index 0 }}bg-dot-active{{ else }}bg-gray-300{{ end }}"
+                        data-index="{{ $index }}"
+                        style="{{ if eq $index 0 }}background-color: #778F00{{ end }}"></button>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .bg-dot-active {
+        background-color: #778F00;
+    }
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const reviews = document.querySelectorAll('.review');
+        const dotsContainer = document.getElementById('review-dots');
+        const prevButton = document.getElementById('prev-review');
+        const nextButton = document.getElementById('next-review');
+        let currentIndex = 0;
+        const reviewCount = {{ len $reviews }};
+
+        function showReview(index) {
+            // Hide all reviews
+            reviews.forEach(review => {
+                review.classList.add('hidden');
+            });
+
+            // Show the current review
+            reviews[index].classList.remove('hidden');
+
+            // Update dot styles
+            const dots = dotsContainer.querySelectorAll('.review-dot');
+            dots.forEach((dot, i) => {
+                dot.style.backgroundColor = i === index ? '#778F00' : '#D1D5DB';
+            });
+
+            currentIndex = index;
+        }
+
+        function goToPrevious() {
+            showReview((currentIndex - 1 + reviewCount) % reviewCount);
+        }
+
+        function goToNext() {
+            showReview((currentIndex + 1) % reviewCount);
+        }
+
+        // Add click listeners to nav buttons
+        prevButton.addEventListener('click', goToPrevious);
+        nextButton.addEventListener('click', goToNext);
+
+        // Add click listeners to dots
+        dotsContainer.addEventListener('click', (e) => {
+            if (e.target.classList.contains('review-dot')) {
+                const index = parseInt(e.target.getAttribute('data-index'));
+                showReview(index);
+            }
+        });
+
+        // Only set up auto-rotation if we have reviews
+        if (reviewCount > 0) {
+            // Auto-rotate reviews every 5 seconds
+            setInterval(goToNext, 5000);
+        }
+    });
+</script>
